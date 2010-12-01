@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+	<table name="btEvents">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="title" type="C" size="255">
+		</field>
+	</table>
+	
+	<table name="btEventsEvent">
+		<field name="eventsEventId" type="I">
+			<key />
+			<autoincrement />
+			<unsigned />
+		</field>
+		<field name="btEventsID" type="I">
+			<unsigned />
+		</field>
+		<field name="event_name" type="C" size="255">
+		</field>
+		<field name="short_description" type="X">
+		</field>
+		<field name="event_date" type="D">
+		</field>
+		<field name="publish_from" type="D">
+		</field>
+		<field name="publish_to" type="D">
+		</field>
+		<field name="display_order" type="I">
+			<unsigned />
+		</field>
+		<field name="page_id" type="I">
+			<unsigned />
+		</field>
+		<field name="fID" type="I">
+			<unsigned />
+		</field>
+	</table>
+	
+</schema>

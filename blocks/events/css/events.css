@@ -1,0 +1,18 @@
+.eventsheading { margin-top: 0px; padding-top: 0px; }
+.eventsdivider { margin-top: 4px; }
+.eventlist{ list-style: none; margin: 0; padding: 0;}
+.eventlist .event-table td { padding-bottom: 5px; vertical-align: top; }
+.eventlist .event-table td.event-table-detail { padding-left: 3px; }
+.eventlist .eventimage img { border: 1px solid #fff; } 
+.eventlist .eventdate { display: block; width: 36px; height: 36px; background: url(../images/calendar.png) no-repeat; margin: 0 auto; }
+.eventlist .eventimage { /*margin: 0 auto;*/ }
+.eventlist td.event-table-image { padding-top: 4px; }
+.eventlist td.event-table-image.calendar { text-align: center; }
+.eventlist .eventdate .month { color: #fff; font-size: 10px; text-align: center; width: 36px; height: 17px; display: block; position: relative; top: -2px; }
+.eventlist .eventdate .date { color: #000; font-size: 12px; text-align: center; width: 36px; height: 34px; display: block; font-weight: bold;}
+.eventlist .eventdetail .eventheading { font-weight: bold; }
+.eventlist .eventdetail .eventshort { font-size: 90%; }
+#page .event-table-detail a, #page .event-table-detail a:visited { color: white; text-decoration: none; }
+#page .event-table-detail a:hover div { text-decoration: underline; }
+
+h2.eventsheading { width: 100%; border-bottom: 1px solid #fff; padding-bottom: 5px; margin-bottom: 5px; }

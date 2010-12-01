@@ -1,0 +1,17 @@
+.eventsheading { margin-top: 0px; padding-top: 0px; }
+.eventsdivider { margin-top: 4px; }
+.eventlist{ list-style: none; margin: 0; padding: 0;}
+.eventlist .event { display: block; margin-bottom: 15px; width: 100%; min-height: 50px; overflow: visible; }
+.eventlist .event .eventimage { float: left; width: 62px; }
+.eventlist .event .eventimage img { border: 1px solid #ccc; } 
+.eventlist .event .eventdate { display: block; float: left; width: 36px; height: 36px; background: url(../images/calendar.png) no-repeat; margin-top: 2px; margin-left: 13px; }
+.eventlist .event .eventdate .month { color: #fff; font-size: 10px; text-align: center; width: 36px; height: 17px; display: block; margin-top: -2px; }
+.eventlist .event .eventdate .date { color: #000; font-size: 12px; text-align: center; width: 36px; height: 34px; display: block; font-weight: bold;}
+.eventlist .event .eventdetail.withimage { margin-left: 67px;  }
+.eventlist .event .eventdetail { margin-left: 67px;  }
+.eventlist .event .eventdetail .eventheading { font-weight: bold; }
+.eventlist .event .eventdetail .eventshort { font-size: 90%; }
+#page .eventlist a, #page .eventlist a:visited { color: white; text-decoration: none; }
+#page .eventlist a:hover { text-decoration: underline; }
+
+h2.eventsheading { width: 100%; border-bottom: 1px solid #fff; padding-bottom: 5px; margin-bottom: 5px; }
