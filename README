@@ -5,3 +5,5 @@ As used on harbourkitchen.com.au (right hand bar).
 The system will save event data in the database and display a calendar note for the particular date of the event, and allow an optional image to be uploaded which will invoke the Concrete5 thumbnailer to display a thumbnail.
 
 Client output tested on IE6/7/8, Firefox 3+, Chrome, Safari 3/4+.
+
+Place into /blocks/ in a c5 installation and follow the installation procedure within the concrete5 dashboard.

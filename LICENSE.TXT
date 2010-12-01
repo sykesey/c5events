@@ -1,4 +1,4 @@
-Licensed under the terms of the GPL v2.
+Licensed under the terms of the GPL v3.
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
